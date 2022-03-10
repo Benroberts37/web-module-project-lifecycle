@@ -4,7 +4,7 @@ import Todo from './Todo'
 export default class TodoList extends React.Component {
   render() {
     return (
-      <div>
+      <div id='todos'>
       <h2>todos:</h2>
       {
         this.props.todos.reduce((acc, td) => {
